@@ -1,6 +1,6 @@
 def celsius_to_fahrenheit(celsius):
-    # BUG: the additive constant should be 32, not 30
-    return celsius * 9 / 5 + 30
+    # Use the standard conversion formula C * 9 / 5 + 32
+    return celsius * 9 / 5 + 32
 
 
 def fahrenheit_to_celsius(fahrenheit):
